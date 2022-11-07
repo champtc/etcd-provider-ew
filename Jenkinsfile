@@ -47,7 +47,7 @@ node {
 
 		stage('Build') {
 		    configFileProvider([configFile(fileId: 'DEFAULT_MAVEN_SETTINGS', variable: 'MAVEN_SETTINGS')]) {
-				sh 'M2_HOME/bin/mvn -s $MAVEN_SETTINGS clean package deploy -f ./pom.xml -Dmaven.test.skip=true'
+				sh '$M2_HOME/bin/mvn -s $MAVEN_SETTINGS clean package deploy -f ./pom.xml -Dmaven.test.skip=true'
     		}
 		}
 

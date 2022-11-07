@@ -51,12 +51,12 @@
 		<snapshotRepository>
 			<id>maven-snapshots</id>
 			<name>Nexus Snapshots</name>
-			<url>http://nexus.ad.darklight.ai:8081/repository/maven-snapshots/</url>
+			<url>http://nexus.darklight.ai/repository/maven-snapshots/</url>
 		</snapshotRepository>
 		<repository>
 			<id>maven-releases</id>
 			<name>Nexus Releases</name>
-			<url>http://nexus.ad.darklight.ai:8081/repository/maven-releases/</url>
+			<url>http://nexus.darklight.ai/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
 
