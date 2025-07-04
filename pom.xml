@@ -48,7 +48,7 @@
 
     <distributionManagement>
         <repository>
-            <id>ecf-ew</id>
+            <id>etcd-provider-ew</id>
             <name>GitHub Packages</name>
             <url>https://maven.pkg.github.com/champtc/etcd-provider-ew</url>
         </repository>
